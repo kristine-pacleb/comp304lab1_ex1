@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">marykristinepacleb_COMP304Lab1_Ex1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="life_cycle">Life Cycle Methods Demonstration</string>
+    <string name="message">Main Activity: onCreate executed onStart executed</string>
+</resources>
