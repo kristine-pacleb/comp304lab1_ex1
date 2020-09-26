@@ -4,6 +4,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="life_cycle">Life Cycle Methods Demonstration</string>
     <string name="message">Main Activity: </string>
+    <string name="onCreate_executed">onCreate executed</string>
+    <string name="onStart_executed">onStart executed</string>
     <string name="ai_Activity">AI Activity: </string>
     <string name="vr_Activity">VR Activity: </string>
     <string name="onCreate">onCreate</string>
@@ -13,6 +15,5 @@
     <string name="onPause">onPause</string>
     <string name="onStop">onStop</string>
     <string name="onDestroy">onDestroy</string>
-
 
 </resources>

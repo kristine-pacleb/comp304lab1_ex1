@@ -6,18 +6,30 @@
     tools:context=".FragmentSecond"
     android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/tvMainActivity"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/background"
         android:text="@string/message"
         android:textColor="@color/text"
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/tvOnCreate"
+    android:id="@+id/tvOnCreate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:text="@string/onCreate_executed"
+    android:textColor="@color/text"
+    android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvOnStart"
         android:layout_width="match_parent"
-        android:layout_height="38dp"
-        android:text="TextView" />
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:text="@string/onStart_executed"
+        android:textColor="@color/text"
+        android:textSize="40sp" />
 </LinearLayout>

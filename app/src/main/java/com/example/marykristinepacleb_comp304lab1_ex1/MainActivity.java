@@ -13,9 +13,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     String tag = "Lifecycle";
-    FragmentSecond fragmentSecond;
-    TextView t;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

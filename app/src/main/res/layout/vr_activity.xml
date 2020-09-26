@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".VRActivity">
 
     <TextView
-        android:id="@+id/tvAIActivity"
-        android:layout_width="381dp"
-        android:layout_height="237dp"
+        android:id="@+id/tvVRActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/vr_Activity"
         android:textColor="@color/text"
-        android:textSize="45sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="59dp" />
+        android:textSize="40sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/vr-OnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onCreate_executed"
+        android:textColor="@color/text"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/vr-OnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onStart_executed"
+        android:textColor="@color/text"
+        android:textSize="40sp" />
+
+</LinearLayout>
