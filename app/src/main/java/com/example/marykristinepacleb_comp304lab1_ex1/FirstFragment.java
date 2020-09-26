@@ -33,4 +33,11 @@ public class FirstFragment extends ListFragment {
 
         return view;
     }
+
+    //constructor
+    public FirstFragment(){
+
+    }
+
+
 }
