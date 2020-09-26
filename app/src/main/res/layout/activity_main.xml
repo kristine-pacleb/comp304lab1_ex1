@@ -12,8 +12,38 @@
         android:name="com.example.marykristinepacleb_comp304lab1_ex1.FirstFragment"
         android:layout_width="305dp"
         android:layout_height="161dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="124dp" />
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.example.marykristinepacleb_comp304lab1_ex1.FragmentSecond"
+        android:layout_width="372dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="308dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/life_cycle"
+        android:textSize="20sp"
+        android:textColor="@color/title"
+        app:layout_constraintBottom_toTopOf="@+id/fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
