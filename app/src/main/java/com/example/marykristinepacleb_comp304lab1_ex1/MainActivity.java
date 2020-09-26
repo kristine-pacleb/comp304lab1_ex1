@@ -18,40 +18,40 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, R.string.onCreate, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.onCreate, Toast.LENGTH_SHORT).show();
     }
 
         public void onStart()
         {
             super.onStart();
-            Toast.makeText(this, R.string.onStart, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onStart, Toast.LENGTH_SHORT).show();
         }
 
         public void onRestart()
         {
             super.onRestart();
-            Toast.makeText(this, R.string.onRestart, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onRestart, Toast.LENGTH_SHORT).show();
         }
 
         public void onResume()
         {
             super.onResume();
-            Toast.makeText(this, R.string.onResume, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onResume, Toast.LENGTH_SHORT).show();
         }
         public void onPause()
         {
             super.onPause();
-            Toast.makeText(this, R.string.onPause, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onPause, Toast.LENGTH_SHORT).show();
         }
         //
         public void onStop()
         {
             super.onStop();
-            Toast.makeText(this, R.string.onStop, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onStop, Toast.LENGTH_SHORT).show();
         }
         public void onDestroy()
         {
             super.onDestroy();
-            Toast.makeText(this, R.string.onDestroy, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onDestroy, Toast.LENGTH_SHORT).show();
         }
 }
