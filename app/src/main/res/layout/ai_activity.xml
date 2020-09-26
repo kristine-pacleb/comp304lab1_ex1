@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".AIActivity">
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="com.example.marykristinepacleb_comp304lab1_ex1.FirstFragment"
-        android:layout_width="305dp"
-        android:layout_height="161dp"
+    <TextView
+        android:id="@+id/tvAIActivity"
+        android:layout_width="381dp"
+        android:layout_height="237dp"
+        android:text="@string/ai_Activity"
+        android:textColor="@color/text"
+        android:textSize="45sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="124dp" />
-
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="59dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
