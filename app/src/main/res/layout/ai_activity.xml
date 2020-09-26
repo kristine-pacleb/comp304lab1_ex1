@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/tvAIActivity"
-        android:layout_width="381dp"
-        android:layout_height="237dp"
+        android:layout_width="378dp"
+        android:layout_height="238dp"
         android:text="@string/ai_Activity"
         android:textColor="@color/text"
         android:textSize="45sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteX="17dp"
         tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
